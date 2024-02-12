@@ -1,0 +1,20 @@
+.feed-form {
+    margin-top: 40px;
+    width: 303px;
+    input {
+        width: 303px;
+        height: 54px;
+        border-radius: 6px;
+        border: none;
+        margin-bottom: 15px;
+        padding-left: 20px;
+        outline: none;
+        color: rgb(75, 75, 75);
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0px;
+    }
+    &_mt25 {
+        margin-top: 25px;
+    }
+}

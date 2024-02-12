@@ -1,0 +1,29 @@
+.reviews {
+    &__items {
+        margin-top: 100px;
+    }
+    &__item {
+        position: relative;
+        margin-left: 225px;
+        margin-bottom: 62px;
+        img {
+            position: absolute;
+            left: -225px;
+        }
+    }
+    &__name {
+        color: rgb(13, 13, 13);
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__marafon {
+        color: rgb(100, 100, 100);
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &__descr {
+        color: rgb(13, 13, 13);
+        width: 630px;
+        margin-top: 18px;
+    }
+}
